@@ -25,4 +25,8 @@ public class TesteController {
     public ResponseEntity<?> teste04(){
         return ResponseEntity.ok("Teste 04");
     }
+    @GetMapping("/t5")
+    public ResponseEntity<?> teste05(){
+        return ResponseEntity.ok("Teste 05");
+    }
 }

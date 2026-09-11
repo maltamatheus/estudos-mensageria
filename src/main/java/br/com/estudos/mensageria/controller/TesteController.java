@@ -17,16 +17,4 @@ public class TesteController {
     public ResponseEntity<?> teste02(){
         return ResponseEntity.ok("Teste 02");
     }
-    @GetMapping("/t3")
-    public ResponseEntity<?> teste03(){
-        return ResponseEntity.ok("Teste 03");
-    }
-    @GetMapping("/t4")
-    public ResponseEntity<?> teste04(){
-        return ResponseEntity.ok("Teste 04");
-    }
-    @GetMapping("/t5")
-    public ResponseEntity<?> teste05(){
-        return ResponseEntity.ok("Teste 05");
-    }
 }
